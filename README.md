@@ -33,3 +33,11 @@ Here's a step-by-step guide on how to install and run the project:
    ```
    streamlit run streamlit_app.py
    ```
+
+6. **API Token**
+
+   Getting your Replicate API token is a simple 3-step process:
+
+   - Go to `https://replicate.com/signin/`.
+   - Sign in with your GitHub account.
+   - Proceed to the API tokens page and copy your API token.
