@@ -13,6 +13,14 @@ with st.sidebar:
         replicate_api = st.secrets["REPLICATE_API_TOKEN"]
     else:
         replicate_api = st.text_input("Enter Replicate API token:", type="password")
+        st.markdown(
+            """
+            Getting your Replicate API token: \n
+            - Go to [Replicate](https://replicate.com/signin).
+            - Sign in with your GitHub account.
+            - Proceed to the API tokens page and copy your API token.
+            """
+        )
         if not (replicate_api.startswith("r8_") and len(replicate_api) == 40):
             st.warning("Please enter your credentials!", icon="⚠️")
         else:
