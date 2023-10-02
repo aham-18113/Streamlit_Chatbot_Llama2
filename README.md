@@ -37,3 +37,7 @@ Here's a step-by-step guide on how to install and run the project:
    - Go to `https://replicate.com/signin/`.
    - Sign in with your GitHub account.
    - Proceed to the API tokens page and copy your API token.
+
+6. **Deploy**
+
+   The deployed link is [Deploy](5. **API Token**).
