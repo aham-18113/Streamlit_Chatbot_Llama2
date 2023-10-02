@@ -40,4 +40,4 @@ Here's a step-by-step guide on how to install and run the project:
 
 6. **Deploy**
 
-   The deployed link is [Deploy](5. **API Token**).
+   The deployed link is [Deploy](https://elaina-chatbot-testing.streamlit.app/).
