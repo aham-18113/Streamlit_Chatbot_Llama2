@@ -22,11 +22,7 @@ Here's a step-by-step guide on how to install and run the project:
    pip install -r requirements.txt
    ```
 
-4. **Modifications**
-
-   Change `config.toml` to `secrets.toml`
-
-5. **Run**
+4. **Run**
 
    Run the following command to run it on the localhost:
 
@@ -34,7 +30,7 @@ Here's a step-by-step guide on how to install and run the project:
    streamlit run streamlit_app.py
    ```
 
-6. **API Token**
+5. **API Token**
 
    Getting your Replicate API token is a simple 3-step process:
 
